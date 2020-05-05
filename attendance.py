@@ -50,4 +50,4 @@ schedule.every().thursday.at("03:10").do(repeat)
 
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(2)

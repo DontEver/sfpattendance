@@ -55,10 +55,10 @@ def repeat():
     driver.close()
 
 
-schedule.every().monday.at("03:32").do(repeat)
-schedule.every().tuesday.at("01:13").do(repeat)
-schedule.every().wednesday.at("03:10").do(repeat)
-schedule.every().thursday.at("03:10").do(repeat)
+schedule.every().monday.at("01:15").do(repeat)
+schedule.every().tuesday.at("01:15").do(repeat)
+schedule.every().wednesday.at("01:15").do(repeat)
+schedule.every().thursday.at("01:15").do(repeat)
 
 while True:
     schedule.run_pending()
